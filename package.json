@@ -21,7 +21,6 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "install": "node-gyp-build",
     "prebuild": "prebuildify --napi",
     "build-ts": "tsc",
     "demo": "ts-node src/demo.ts",
