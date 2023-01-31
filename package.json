@@ -47,7 +47,7 @@
   "prebuild": {
     "test": "dist/prebuild-test-noop.js"
   },
-  "gypfile": true,
+  "gypfile": false,
   "engines": {
     "node": ">= 16"
   }
